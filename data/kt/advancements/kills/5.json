@@ -1,0 +1,17 @@
+{
+  "parent": "kt:root",
+  "criteria": {
+    "never": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": "Get 5 kills",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:stone_sword"
+    },
+    "title": "Quick 5"
+  }
+}
