@@ -1,0 +1,1 @@
+execute at @e[tag=spawnpoint] run summon skeleton ~ ~ ~ {CustomName:'{"text":"Torlaxse Clan Shooter","color":"#ff0000"}',CustomNameVisible:1b,ArmorItems:[{},{},{},{id:"leather_helmet",Count:1b}],HandItems:[{},{},{},{id:"bow",Count:1b}],Tags:["torlaxse"]}
