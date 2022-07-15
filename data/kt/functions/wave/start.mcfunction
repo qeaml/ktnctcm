@@ -17,6 +17,7 @@ execute if score WaveNo State matches 9 run function kt:wave/9
 execute if score WaveNo State matches 10 run function kt:wave/10
 execute if score WaveNo State matches 10 run title @a actionbar {"text":"Waves above 10 are not currently supported.","color":"gold","bold":true}
 
-function kt:wave/defer
+team join Torlaxse @e[tag=torlaxse]
+effect give @e[tag=torlaxse] glowing 5 0 true
 
 schedule function kt:wave/tick 1s
