@@ -1,3 +1,4 @@
+effect give @a saturation 999999 0 true
 tp @a 0 -42 15
 
 title @a subtitle {"text":""}
