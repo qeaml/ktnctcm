@@ -15,7 +15,12 @@ execute if score WaveNo State matches 7 run function kt:wave/7
 execute if score WaveNo State matches 8 run function kt:wave/8
 execute if score WaveNo State matches 9 run function kt:wave/9
 execute if score WaveNo State matches 10 run function kt:wave/10
-execute if score WaveNo State matches 10 run title @a actionbar {"text":"Waves above 10 are not currently supported.","color":"gold","bold":true}
+execute if score WaveNo State matches 11 run function kt:wave/11
+execute if score WaveNo State matches 12 run function kt:wave/12
+execute if score WaveNo State matches 13 run function kt:wave/13
+execute if score WaveNo State matches 14 run function kt:wave/14
+execute if score WaveNo State matches 15 run function kt:wave/15
+execute if score WaveNo State matches 15 run title @a actionbar {"text":"Waves above 15 are not currently supported.","color":"gold","bold":true}
 
 team join Torlaxse @e[tag=torlaxse]
 effect give @e[tag=torlaxse] glowing 5 0 true
