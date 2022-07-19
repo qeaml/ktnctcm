@@ -1,7 +1,7 @@
-scoreboard players set @a Dead 0
+scoreboard players set @a[gamemode=adventure] Dead 0
 scoreboard players set InWave State 1
-effect clear @a saturation
-tp @a 0 -48 15
+effect clear @a[gamemode=adventure] saturation
+tp @a[gamemode=adventure] 0 -48 15
 
 title @a subtitle {"text":"Begin!","color":"yellow"}
 
