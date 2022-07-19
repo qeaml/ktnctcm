@@ -1,5 +1,7 @@
 scoreboard players set @a[gamemode=adventure] Ready 0
 execute at @a[gamemode=adventure] if block ~ ~-1 ~ green_concrete run scoreboard players set @p[gamemode=adventure] Ready 1
+execute at @a[gamemode=spectator] if block ~ ~-1 ~ green_concrete run gamemode adventure @p[gamemode=spectator]
+execute at @a[gamemode=adventure] if block ~ ~-1 ~ gray_concrete run gamemode spectator @p[gamemode=adventure]
 
 execute unless entity @a[gamemode=adventure,scores={Ready=0}] if score Countdown State matches 0 run scoreboard players set Countdown State 4
 execute if entity @a[gamemode=adventure,scores={Ready=0}] if score Countdown State matches 1.. run title @a[gamemode=adventure] title ""
