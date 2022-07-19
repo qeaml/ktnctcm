@@ -1,5 +1,5 @@
 # prepare players
-gamemode adventure @a[gamemode=!adventure]
+gamemode adventure @a[gamemode=!spectator]
 clear @a[gamemode=adventure]
 give @a[gamemode=adventure] iron_sword{Unbreakable:true,display:{Name:'{"text":"Basic Sword","bold":true,"italic":false}',Lore:['{"text":"Common","color":"gray"}']}}
 
