@@ -1,3 +1,6 @@
+# clean up possible title
+title @a title ""
+
 # clean up holograms
 kill @e[tag=hologram]
 summon armor_stand 18 -38 19 {CustomName:'{"text":"Reset","color":"red","bold":true}',CustomNameVisible:true,Invisible:true,Tags:["hologram"],NoGravity:true}
@@ -21,11 +24,14 @@ give @a[gamemode=adventure] iron_sword{Unbreakable:true,display:{Name:'{"text":"
 scoreboard objectives remove State
 scoreboard objectives remove Dead
 scoreboard objectives remove Ready
+scoreboard objectives remove Reset
 scoreboard objectives add State dummy
 scoreboard objectives add Dead deathCount
 scoreboard objectives add Ready dummy
+scoreboard objectives add Reset dummy
 scoreboard players set InWave State 0
 scoreboard players set Countdown State 0
+scoreboard players set ResetCountdown State 0
 scoreboard players set WaveNo State 1
 scoreboard players set Balance State 100
 scoreboard players set HasShield State 0
