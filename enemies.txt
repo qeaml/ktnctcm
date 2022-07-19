@@ -1,0 +1,10 @@
+Member                       - Zombie
+Shooter                      - Skeleton
+Stalker                      - Creeper
+Mutated Spider               - Spider
+Mutated Smol Spider          - Cave Spider
+Feminine HeHeHeHa            - Witch
+Bitemaker                    - Evoker
+Flying Tentacles             - Ghast
+Flying Flaming Thing         - Blaze
+Box That Shoots Fly Bullets  - Shulker 

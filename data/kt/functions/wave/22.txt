@@ -1,0 +1,35 @@
+wave 22
+
+region 1
+  summon member
+  summon shooter
+  summon stalker
+  summon mspider
+region 2
+  summon member
+  summon member
+  summon shooter
+  summon shooter
+  summon stalker
+  summon mspider
+region 3
+  summon member
+  summon member
+  summon shooter
+  summon shooter
+  summon stalker
+  summon mspider
+  summon sspider
+region 4
+  summon member
+  summon member
+  summon shooter
+  summon shooter
+  summon stalker
+  summon mspider
+region 5
+  summon member
+  summon shooter
+  summon stalker
+  summon mspider
+

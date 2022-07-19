@@ -1,0 +1,21 @@
+wave 16
+
+region 1
+  summon member
+  summon shooter
+region 2
+  summon member
+  summon shooter
+  summon mspider
+region 3
+  summon member
+  summon shooter
+  summon stalker
+  summon mspider
+region 4
+  summon member
+  summon shooter
+  summon mspider
+region 5
+  summon member
+  summon shooter

@@ -1,0 +1,38 @@
+wave 24
+
+region 1
+  summon shooter
+  summon shooter
+  summon shooter
+  summon stalker
+  summon mspider
+  summon sspider
+region 2
+  summon shooter
+  summon shooter
+  summon shooter
+  summon stalker
+  summon mspider
+  summon sspider
+region 3
+  summon shooter
+  summon shooter
+  summon shooter
+  summon stalker
+  summon mspider
+  summon sspider
+region 4
+  summon shooter
+  summon shooter
+  summon shooter
+  summon stalker
+  summon mspider
+  summon sspider
+region 5
+  summon shooter
+  summon shooter
+  summon shooter
+  summon stalker
+  summon mspider
+  summon sspider
+

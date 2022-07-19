@@ -1,0 +1,20 @@
+wave 25
+
+region 1
+  summon member
+region 2
+  summon member
+  summon shooter
+  summon mspider
+region 3
+  summon member
+  summon shooter
+  summon stalker
+  summon heheheha
+region 4
+  summon member
+  summon shooter
+  summon sspider
+region 5
+  summon member
+
