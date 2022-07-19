@@ -1,0 +1,27 @@
+wave 9
+
+region 1
+  summon member
+  summon member
+  summon shooter
+  summon shooter
+region 2
+  summon member
+  summon member
+  summon shooter
+  summon shooter
+region 3
+  summon member
+  summon member
+  summon shooter
+  summon shooter
+region 4
+  summon member
+  summon member
+  summon shooter
+  summon shooter
+region 5
+  summon member
+  summon member
+  summon shooter
+  summon shooter

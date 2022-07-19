@@ -1,0 +1,32 @@
+wave 14
+
+region 1
+  summon member
+  summon member
+  summon shooter
+  summon shooter
+  summon stalker
+region 2
+  summon member
+  summon member
+  summon shooter
+  summon shooter
+  summon stalker
+region 3
+  summon member
+  summon member
+  summon shooter
+  summon shooter
+  summon stalker
+region 4
+  summon member
+  summon member
+  summon shooter
+  summon shooter
+  summon stalker
+region 5
+  summon member
+  summon member
+  summon shooter
+  summon shooter
+  summon stalker

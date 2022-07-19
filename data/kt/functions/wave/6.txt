@@ -1,0 +1,15 @@
+wave 6
+
+region 1
+  summon member
+region 2
+  summon member
+  summon shooter
+region 3
+  summon member
+  summon shooter
+region 4
+  summon member
+  summon shooter
+region 5
+  summon member

@@ -1,0 +1,12 @@
+wave 10
+
+region 2
+  summon member
+  summon shooter
+region 3
+  summon member
+  summon shooter
+  summon stalker
+region 4
+  summon member
+  summon shooter

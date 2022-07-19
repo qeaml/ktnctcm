@@ -1,0 +1,15 @@
+wave 3
+
+region 1
+  summon member
+region 2
+  summon member
+  summon member
+region 3
+  summon member
+  summon member
+region 4
+  summon member
+  summon member
+region 5
+  summon member

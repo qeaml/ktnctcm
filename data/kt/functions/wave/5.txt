@@ -1,0 +1,9 @@
+wave 5
+
+region 2
+  summon member
+region 3
+  summon member
+  summon shooter
+region 4
+  summon member
