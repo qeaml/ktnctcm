@@ -57,4 +57,5 @@ execute if score WaveNo State matches 23 run data modify entity @e[tag=wave_no,l
 execute if score WaveNo State matches 24 run data modify entity @e[tag=wave_no,limit=1] CustomName set value '{"text":"Wave 24","color":"yellow"}'
 execute if score WaveNo State matches 25 run data modify entity @e[tag=wave_no,limit=1] CustomName set value '{"text":"Wave 25","color":"yellow"}'
 
+execute at @a run playsound block.beacon.activate master @p ~ ~ ~ 1 1 1
 function kt:wave/end

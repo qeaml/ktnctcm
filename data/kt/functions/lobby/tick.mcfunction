@@ -9,9 +9,13 @@ execute if entity @a[gamemode=adventure,scores={Ready=0}] run title @a[gamemode=
 execute if entity @a[gamemode=adventure,scores={Ready=0}] run scoreboard players set Countdown State 0
 
 execute if score Countdown State matches 4 run title @a title "3"
+execute if score Countdown State matches 4 at @a run playsound entity.experience_orb.pickup master @p ~ ~ ~ 0.3 2 0.3
 execute if score Countdown State matches 3 run title @a title "2"
+execute if score Countdown State matches 3 at @a run playsound entity.experience_orb.pickup master @p ~ ~ ~ 0.6 2 0.6
 execute if score Countdown State matches 2 run title @a title "1"
+execute if score Countdown State matches 2 at @a run playsound entity.experience_orb.pickup master @p ~ ~ ~ 0.9 2 0.9
 execute if score Countdown State matches 1 run function kt:wave/start
+execute if score Countdown State matches 1 at @a run playsound block.beacon.activate master @p ~ ~ ~ 1 1 1
 execute if score Countdown State matches 1..4 run scoreboard players remove Countdown State 1
 
 execute unless score InWave State matches 1 run schedule function kt:lobby/tick 1s
