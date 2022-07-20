@@ -38,6 +38,11 @@ scoreboard players set HasShield State 0
 scoreboard players set HasRegen State 0
 scoreboard players set @a[gamemode=adventure] Dead 0
 
+# prepare teams
+team remove Torlaxse
+team add Torlaxse
+team modify Torlaxse color red
+
 # clean up after possibly mid-wave reset
 tp @a[gamemode=adventure] 8 -39 23
 kill @e[tag=torlaxse]
