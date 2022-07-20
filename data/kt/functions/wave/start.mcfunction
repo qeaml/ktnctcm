@@ -1,7 +1,8 @@
 scoreboard players set @a[gamemode=adventure] Dead 0
 scoreboard players set InWave State 1
 effect clear @a[gamemode=adventure] saturation
-execute if score HasRegen1 State matches 1 run effect give @a[gamemode=adventure] regeneration 999999 0
+execute if score HasRegen State matches 1 run effect give @a[gamemode=adventure] regeneration 999999 0
+execute if score HasRegen State matches 2 run effect give @a[gamemode=adventure] regeneration 999999 1
 tp @a[gamemode=adventure] 8 -46.9 23
 
 title @a subtitle {"text":"Begin!","color":"yellow"}

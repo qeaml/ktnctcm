@@ -35,7 +35,7 @@ scoreboard players set ResetCountdown State 0
 scoreboard players set WaveNo State 1
 scoreboard players set Balance State 100
 scoreboard players set HasShield State 0
-scoreboard players set HasRegen1 State 0
+scoreboard players set HasRegen State 0
 scoreboard players set @a[gamemode=adventure] Dead 0
 
 # clean up after possibly mid-wave reset
